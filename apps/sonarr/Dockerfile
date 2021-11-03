@@ -20,10 +20,7 @@ RUN \
     ca-certificates \
     mono-complete \
     ca-certificates-mono \
-  && \
-  curl -fsSL -o /tmp/repo-mediaarea.deb \
-    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-19_all.deb" \
-  && dpkg -i /tmp/repo-mediaarea.deb \
+    libmediainfo0v5 \
   && \
   curl -fsSL -o /tmp/sonarr.tar.gz \
     "https://download.sonarr.tv/v3/main/${VERSION}/Sonarr.main.${VERSION}.linux.tar.gz" \
