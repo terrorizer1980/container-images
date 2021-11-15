@@ -18,6 +18,7 @@ RUN \
     ffmpeg \
     unrar \
     unzip \
+    dos2unix \
     ${EXTRA_INSTALL_ARG} \
   && \
   ln -s /usr/bin/python3 /usr/bin/python \
